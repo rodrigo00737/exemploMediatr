@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,8 +24,9 @@ namespace TesteMediatr.Api
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            var assembly = AppDomain.CurrentDomain.Load("TesteMediatr.Domain");
 
-            services.AddMediatR(typeof(ProductHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
