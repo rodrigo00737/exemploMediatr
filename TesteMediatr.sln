@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteMediatr.Domain", "TesteMediatr.Domain\TesteMediatr.Domain.csproj", "{1AA442FF-F44D-4A8F-B931-394BA710F392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteMediatr.Api", "TesteMediatr.Api\TesteMediatr.Api.csproj", "{73A2D373-1B73-4734-BACE-5C8D90125BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA442FF-F44D-4A8F-B931-394BA710F392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA442FF-F44D-4A8F-B931-394BA710F392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA442FF-F44D-4A8F-B931-394BA710F392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA442FF-F44D-4A8F-B931-394BA710F392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A2D373-1B73-4734-BACE-5C8D90125BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A2D373-1B73-4734-BACE-5C8D90125BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A2D373-1B73-4734-BACE-5C8D90125BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A2D373-1B73-4734-BACE-5C8D90125BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1DF78D2-A680-464F-946D-90E11AA2CF67}
+	EndGlobalSection
+EndGlobal
